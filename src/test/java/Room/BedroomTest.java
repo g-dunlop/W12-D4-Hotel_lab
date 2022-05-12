@@ -57,4 +57,10 @@ public class BedroomTest {
             assertEquals(0, bedroom.getNumberOfGuests());
         }
 
+        @Test
+        public void hasRoomRate (){
+        double cost = bedroom.getRoomRate();
+        assertEquals(59.99, cost, 0.0);
+        }
+
 }
